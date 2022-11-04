@@ -14,7 +14,7 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "sj-cli",
+	Use:   "sj",
 	Short: "A CLI tool for writing faster commit messages",
 	Long: `SplitJoin is a productivity focused service for helping
 developers communicate more easily and effectively.
